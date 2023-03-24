@@ -1,0 +1,110 @@
+Component and Information Planning:
+
+Based off the Figma, I gathered a plan for the components, and additionally
+what information may be required for each one, to help me plan out tasks 
+that need to be completed and the data which needs to be available for the site
+(and which will be hard coded and which should be pulled from a database).
+
+
+Breakdown of site : 
+
+App
+|__Header
+|  |_Site Link x 4 (Home/HeadPhones/Speakers/Earphones)
+|  |_Cart Link (additonal functionality than other links)
+|
+|__Content (Either Home/PLP/PDP/Checkout/Error)
+|
+|_Footer
+  |_Information
+  |_Site Links
+  |_Social Media Logos/Links
+
+
+Home
+|__Hero Banner 
+|
+|__PLP Category Links
+|  |__Card
+|     |__Category Image
+|     |__Category Name
+|     |__Shop Now Button
+|
+|__Ads
+|  |__Ad Card
+|     |__Image
+|     |__Ad Text
+|     |__See Product 
+|
+|__Bringing You Audio
+  |__Large Text
+  |__Small Text
+  |__Image
+
+
+PLP
+|__Category Title
+|
+|__Products
+|  |__Product
+|     |__Product Image
+|     |__Product Information
+|        |__Sash (new product, %off, etc)
+|        |__Product Name
+|        |__Product Description 
+|        |__Link to PDP 
+|
+|__PLP Category Links (Shared, see Home)
+|
+|__Bringing You Audio (Shared, see Home)
+
+
+PDP
+|__Category Title
+|
+|__Back Button 
+|
+|__Breadcrumb? (not in figma, may add here)
+|
+|__Product Image
+|
+|__Product Information
+|  |__Sash
+|  |__Name
+|  |__Description
+|  |__Price
+|  |__Add to Bag 
+|
+|__Detailed Info
+|  |__Features
+|  |__In the Box
+|  
+|__Images
+|
+|__Reccomendation Component (decisions to be made on functionality and contents, may alter)
+|
+|__PLP Category Links (Shared, see Home)
+|
+|__Bringing You Audio (Shared, see Home)
+
+
+Checkout
+|__Checkout Form (Detailed information for form in ____)
+|
+|__Basket Summary
+|  |__Title 
+|  |__Products
+|  |  |__Image
+|  |  |__Product Name
+|  |  |__Price 
+|  |  |__Quantity
+|  |
+|  |__Total 
+|  |
+|  |__Shipping Cost (Maybe add delivery options?)
+|  |
+|  |__VAT 
+|  |
+|  |__Grand __Total
+|
+|__Continue and Pay
